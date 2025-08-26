@@ -15,22 +15,22 @@ quando todos os arquivos estiverem prontos, subir no repositório TCC
 ✓ Inclua scripts para criação e manipulação de banco de dados. 
 ✓ Cada grupo de alunos deverá organizar seus projetos no seguinte 
 formato: 
-✓ /nome-do-projeto/ 
-✓ ├── README.md                   
-✓ ├── artigo_TCC.pdf             
+✓ /nome-do-projeto/ <br>
+✓ ├── README.md      <br>             
+✓ ├── artigo_TCC.pdf       <br>      
 ✓ ├── documentação/ 
-✓ │   ├── requisitos.pdf 
-✓ │   ├── manual_usuario.pdf 
-# Apresentação do projeto 
- # Documento acadêmico formatado (ABNT) 
-✓ │   ├── manual_desenvolvedor.pdf 
-✓ │   └── diagramas/             
- # ER, UML, etc. 
-✓ ├── codigo_fonte/ 
-✓ │   ├── backend/ 
-✓ │   └── frontend/ 
-✓ ├── banco_de_dados/
-✓ │   └── scripts.sql 
-✓ └── demonstracao/ 
-✓     └── video.mp4 (ou link) 
+✓ │   ├── requisitos.pdf <br>
+✓ │   ├── manual_usuario.pdf <br>
+# Apresentação do projeto <br>
+ # Documento acadêmico formatado (ABNT) <br>
+✓ │   ├── manual_desenvolvedor.pdf <br>
+✓ │   └── diagramas/             <br>
+ # ER, UML, etc. <br>
+✓ ├── codigo_fonte/ <br>
+✓ │   ├── backend/ <br>
+✓ │   └── frontend/ <br>
+✓ ├── banco_de_dados/<br>
+✓ │   └── scripts.sql <br>
+✓ └── demonstracao/ <br>
+✓     └── video.mp4 (ou link) <br>
 
