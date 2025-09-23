@@ -1,0 +1,183 @@
+*{
+    font-family: "Inter", "Arial";
+}
+
+.desaparecer {
+    opacity: 0;
+}
+
+.esconder{
+    display: none;
+}
+
+#logoSplash {
+    width: 300px;
+}
+
+#titleSplash {
+    font-family: "Anton";
+    color: #fff;
+    font-size: 55px;
+}
+
+#subTextoSplash {
+    font-family: "Anton";
+    color: #fff;
+    font-size: 20px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #393939;
+    padding: 10px;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+
+main {
+    min-height: 100%;
+    flex: 1;
+    border-radius: 30px;
+    background-color: #1E1E1E;
+    padding: 30px 30px 30px 80px;
+}
+
+.btnMenu {
+    position: absolute;
+    margin: 10px 0 0 10px;
+    background: none;
+    border: none;
+    height: 60px;
+    width: 60px;
+    cursor: pointer;
+    gap: 5px;
+    transition: 0.5s;
+    display: none;
+}
+
+.btnMenu.ativo{
+    display: block;
+}
+
+.imgMenu{
+    width: 100%;
+}
+
+main,
+#menu {
+    display: none;
+}
+
+main.ativo {
+    display: block;
+}
+
+#menu.ativo {
+    display: flex;
+}
+
+
+
+#menu {
+    min-height: 100%;
+    width: 350px;
+    background-color: #1E1E1E;
+    border-radius: 30px;
+    flex-direction: column;
+    transition: margin-left 0.3s;
+    margin-left: 0;
+}
+
+#menu.fechado {
+    margin-left: -360px;
+}
+
+#menu .title {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 5px;
+    background-color: #7FA417;
+    border-radius: 30px;
+    padding: 10px;
+    margin-bottom: 40px;
+}
+
+#menu .title p {
+    font-family: "Anton", "Arial";
+    color: #fff;
+}
+
+#logoMenu {
+    width: 60px;
+    opacity: 0;
+}
+
+.sessoes {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 70px;
+    width: 100%;
+}
+
+.sessao {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    width: 100%;
+}
+
+.titleMenu {
+    font-size: 20px;
+    font-style: bold;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 10px;
+    margin-left: 8px;
+}
+
+.link {
+    border: none;
+    background: none;
+    padding: 15px;
+    border-radius: 50px;
+    display: flex;
+    gap: 5px;
+    justify-content: start;
+    align-items: center;
+    transition: 0.3s;
+    cursor: pointer;
+    color: #fff;
+}
+
+.link:hover {
+    background-color: rgba(92, 92, 92, 0.2);
+}
+
+.link p {
+    font-size: 15px;
+}
+
+
+.link.clicado {
+    background-color: #393939;
+}
+
+#lista {
+
+    align-items: start;
+    justify-content: center;
+    display: flex;
+    background-color: green;
+    border-radius: 10px;
+    width: 100%;
+    flex-direction: column;
+}
