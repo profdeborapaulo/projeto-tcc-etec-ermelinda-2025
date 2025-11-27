@@ -1,0 +1,76 @@
+@font-face {
+  font-family: 'Anton';
+  src: url('./fonts/Anton-Regular.ttf');
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("./fonts/Inter_Regular.ttf");
+}
+
+.container {
+  padding: 10px;
+  height: 100vh;
+  display: flex;
+  gap: 10px;
+  position: relative;
+  font-family: "Inter";
+  color: #fff;
+}
+
+button{
+  color: #fff;
+}
+
+.imgTitleMenu {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  cursor: pointer;
+  z-index: 1;
+  transition: 0.5s;
+}
+
+.imgTitleMenuFechado{
+  left: 35px; 
+  top: 20px;
+}
+
+main {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 30px;
+  background-color: #1e1e1e;
+  padding: 30px;
+  gap: 30px;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: 0.5s;
+}
+
+.paddingLeft{
+  padding-left: 70px;
+}
+
+.txtHeader {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.blur{
+    z-index: 4;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}

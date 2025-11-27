@@ -1,0 +1,81 @@
+.textareaLembrete{
+  border: none;
+  outline: none;
+  background-color: #565656;
+  height: 200px;
+  width: 100%;
+  display: flex;
+  align-items: start;
+  margin-top: 20px;
+  resize: none;
+  border-radius: 10px;
+  padding: 10px;
+  font-family: "Inter";
+}
+
+.titleLembrete{
+  margin-top: 5px;
+  font-family: "Inter";
+  font-size: 20px;
+}
+
+.iconVoltar{
+  width: 30px;
+}
+
+.btnVoltarLembrete{
+  background: none;
+  border: none;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.btnVoltarLembrete:hover{
+  background-color: #4c4c4c;
+}
+
+.btnVoltarLembrete:active{
+  background-color: #5c5c5c;
+}
+
+.btnEnviarLembretePagamento, .btnEnviarLembreteIncentivo{
+  width: 100%;
+  height: 40px;
+  border-radius: 10px;
+  margin-top: 20px;
+  border: none;
+  background-color: #5D741E;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btnEnviarLembretePagamentoDesativado, .btnEnviarLembreteIncentivoDesativado{
+  width: 100%;
+  height: 40px;
+  border-radius: 10px;
+  margin-top: 20px;
+  border: none;
+  background-color: #5D741E;
+  opacity: 30%;
+}
+
+.btnEnviarLembreteIncentivo:hover, .btnEnviarLembretePagamento:hover{
+  background-color: #6c8624;
+}
+
+.btnEnviarLembreteIncentivo:active, .btnEnviarLembretePagamento:active{
+  background-color: #5D741E;
+}
+
+.btnEnviarLembretePagamento, .btnEnviarLembreteIncentivo{
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
+  border-top: 1.5px solid rgba(255, 255, 255, 0.22);
+  border-bottom: 1.5px solid rgba(0, 0, 0, 0.28);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}

@@ -1,0 +1,71 @@
+.modeloCheckin {
+  width: 100%;
+  height: 70px;
+  border-radius: 35px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.modeloCheckin:hover{
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.modeloCheckin:active{
+  background-color: #393939;
+}
+
+.ativo {
+background-color: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(6px);
+  border-top: 1.5px solid rgba(255, 255, 255, 0.3);
+}
+
+.imgNome {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 150px;
+}
+
+.imgCheckin {
+  background-color: #fff;
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+}
+
+.nomeCheckin {
+  font-family: "Inter";
+  font-size: 15px;
+}
+
+.txtCheckin {
+  font-family: "Inter";
+  font-size: 20px;
+  width: 76px;
+  font-weight: 600;
+}
+
+.situacaoMatricula {
+  width: 86px;
+  height: 24px;
+  border-radius: 12px;
+  font-family: "Inter";
+  font-size: 10px;
+  background: #1A8200;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.pendente {
+  background-color: #BE5F00;
+}
+
+.atrasado {
+  background-color: #F00;
+}

@@ -1,0 +1,680 @@
+.container {
+    height: 100%;
+    overflow-y: auto;
+    scrollbar-width: none;
+    display: flex;
+    gap: 7px;
+}
+
+.conteudo {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.containerCards {
+    display: flex;
+    gap: 7px;
+    flex-wrap: wrap;
+}
+
+.containerTodos {
+    height: fit-content;
+    background-color: #393939;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 10px;
+    gap: 20px;
+}
+
+.titulo {
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.containerPesquisa {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.containerBarraPesquisa {
+    height: 30px;
+    flex: 1;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.inputPesquisa {
+    background: none;
+    border: none;
+    outline: none;
+    flex: 1;
+}
+
+.btnLembreteGeral {
+    background-color: #be5f00;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: "Inter";
+    font-weight: 500;
+    height: 30px;
+    color: #fff;
+}
+
+.btnLembreteGeral:hover {
+    transition: 0.3s;
+    background-color: #d66b00;
+    cursor: pointer;
+}
+
+.btnLembreteGeral:active {
+    transition: 0.1s;
+    transform: scale(0.98);
+}
+
+.btnDesativado {
+    pointer-events: none;
+    opacity: 0.5;
+}
+
+.containerFiltro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px;
+    border-radius: 10px;
+    gap: 30px;
+    background-color: rgba(24, 24, 24, 0.5);
+    height: 30px;
+    font-size: 12px;
+    position: relative;
+}
+
+.btnFiltrar {
+    width: 30px;
+    height: 30px;
+    background-color: #1e1e1e;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.btnFiltrar:hover {
+    transition: 0.3s;
+    cursor: pointer;
+    background-color: #212121;
+}
+
+.listaFiltro {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+    z-index: 1;
+    width: 100%;
+    height: 200px;
+    background-color: #2b2b2b;
+    display: none;
+    padding: 40px 10px 10px 10px;
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.labelFiltro {
+    z-index: 2;
+}
+
+.filtroAberto {
+    display: flex;
+}
+
+.itemFiltro {
+    cursor: pointer;
+}
+
+.hrTodos {
+    background-color: rgba(255, 255, 255, 0.5);
+    height: 1px;
+    width: 100%;
+}
+
+.containerListaTodos {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.titlesLista {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 5px;
+}
+
+.titleLista {
+    font-family: "Inter";
+    font-size: 12px;
+    width: 86px;
+}
+
+.titleId {
+    font-family: "Inter";
+    font-size: 12px;
+    width: 15px;
+}
+
+.ajuste {
+    width: 150px;
+    font-size: 12px;
+    font-family: "Inter";
+}
+
+.listaTodos {
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+    scrollbar-width: none;
+}
+
+.itemTodos {
+    width: 100%;
+    height: fit-content;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    font-size: 12px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.itemTodos:hover {
+    background-color: #4d4d4d;
+}
+
+.ativo {
+    background-color: #4d4d4d;
+}
+
+.itemTodos:active {
+    transition: 0.1s;
+    background: none;
+}
+
+.containerNome {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 150px;
+}
+
+.imgItemTodos {
+    width: 30px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.txtItemTodos {
+    width: 86px;
+}
+
+.pago {
+    color: #9ECD1D;
+}
+
+.pendente {
+    color: #FFA64D;
+}
+
+.atrasado {
+    color: #f00;
+}
+
+.frequenciaGeral {
+    display: flex;
+    flex-direction: column;
+    background-color: #393939;
+    border-radius: 10px;
+    padding: 10px 10px 50px 10px;
+    gap: 30px;
+    position: relative;
+}
+
+.headerFrequenciaGeral {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tituloFrequenciaGeral {
+    font-family: "Inter";
+    font-weight: 600;
+}
+
+.grafico {
+    display: flex;
+    gap: 10px;
+}
+
+.numerosGrafico {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.linhasGrafico {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-block: 6px;
+    justify-content: space-between;
+    position: relative;
+}
+
+.listaGrafico {
+    height: calc(100% - 12px);
+    width: 100%;
+    overflow-x: auto;
+    position: absolute;
+    display: flex;
+    scrollbar-width: none;
+}
+
+.lista {
+    display: flex;
+    align-items: flex-end;
+    gap: 30px;
+}
+
+.barraGrafico {
+    width: 30px;
+    border-radius: 15px;
+    background-color: #1e1e1e;
+}
+
+.txtPorcentagem {
+    font-family: "Inter";
+    font-weight: 600;
+    width: 40px;
+    font-size: 12px;
+}
+
+.hrPorcentagem {
+    flex: 1;
+    background-color: rgba(255, 255, 255, 0.5);
+    height: 1px;
+}
+
+.containerFicha {
+    width: 400px;
+    background-color: #393939;
+    border-radius: 10px;
+    padding: 15px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.tituloFicha {
+    width: 100%;
+    font-family: "Inter";
+    font-weight: 600;
+}
+
+.placeHolder {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.5;
+    width: 100%;
+    text-align: center;
+}
+
+.headerFicha {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-block: 15px;
+}
+
+.imgHeaderFicha {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.containerTxtHeaderFicha {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-family: "Inter";
+}
+
+.txtHeaderFicha {
+    font-size: 10px;
+}
+
+.nomeHeaderFicha {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.hrFicha {
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    height: 0.5px;
+}
+
+.containerDados {
+    height: 400px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    scrollbar-width: none;
+}
+
+.tituloDados {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.titulosFicha {
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.tituloAcoes {
+    font-size: 16px;
+    font-weight: 600;
+    margin-block: 10px;
+}
+
+.containerInputs {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 5px;
+}
+
+.containerInput {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    flex: 1;
+}
+
+.labelInput {
+    font-size: 12px;
+}
+
+.inputDados {
+    width: 100%;
+    height: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    background: #1e1e1e;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    outline: none;
+}
+
+.imgCadastrada {
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    height: 200px;
+    position: relative;
+}
+
+.inputNotaInterna {
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    height: 100px;
+    font-family: "Inter";
+    padding: 10px;
+    resize: none;
+    color: #fff;
+    outline: none;
+}
+
+.containerAcoes {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cardAcao {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 12px;
+    width: 50%;
+    height: 30px;
+}
+
+.cardAcao:hover {
+    transition: 0.3s;
+    background: #2f2f2f;
+    cursor: pointer;
+}
+
+.cardAcao:active {
+    transition: 0.1s;
+    transform: scale(0.98);
+}
+
+.lembreteGeral {
+    height: 500px;
+    width: 500px;
+    border-radius: 10px;
+    background: #404040;
+    padding: 20px 60px 20px 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 10px 10px 10px rgba(24, 24, 24, 0.5);
+    z-index: 5;
+    justify-content: space-between;
+}
+
+.exibirLembreteGeral {
+    display: flex;
+}
+
+.headerLembreteGeral {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.tituloLembreteGeral {
+    font-family: "Inter";
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.descricaoLembreteGeral {
+    font-family: "Inter";
+    font-size: 12px;
+    text-align: center;
+}
+
+.contanerBotoesLembreteGeral {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.btnEnviarLembreteGeral {
+    padding: 10px;
+    border-radius: 10px;
+    height: 30px;
+    border: none;
+    background: linear-gradient(to right, #9ECD1D, #4F670F);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    width: 100%;
+}
+
+.btnEnviarLembreteGeral:hover {
+    transition: 0.3s;
+    cursor: pointer;
+    background: linear-gradient(to right, #4F670F, #9ECD1D);
+}
+
+.btnEnviarLembreteGeral:active {
+    transition: 0.1s;
+    transform: scale(0.98);
+}
+
+.btnCancelarEnvio {
+    padding: 10px;
+    border-radius: 10px;
+    height: 30px;
+    border: none;
+    background: none;
+    border: 1px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    width: 100%;
+}
+
+.btnCancelarEnvio:hover {
+    transition: 0.3s;
+    cursor: pointer;
+    background: #515151;
+}
+
+.btnCancelarEnvio:active {
+    transition: 0.1s;
+    transform: scale(0.98);
+}
+
+.txtFooterLembreteGeral {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 12px;
+    text-align: center;
+}
+
+.containerLembreteEnviado {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.containerContatarAluno {
+    height: 450px;
+    width: 500px;
+    border-radius: 10px;
+    background: #404040;
+    padding: 20px 50px 20px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 10px 10px 10px rgba(24, 24, 24, 0.5);
+    z-index: 5;
+    justify-content: space-between;
+}
+
+.exibirContainerContatarAluno {
+    display: flex;
+}
+
+.taContatarAluno {
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+    background: #1e1e1e;
+    border: none;
+    border-radius: 10px;
+    resize: none;
+    font-family: "Inter";
+    outline: none;
+    color: #fff;
+}
+
+.containerStatus {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.circuloStatus {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background: #be5f00;
+}
+
+.presente {
+    background: #9ECD1D;
+}
+
+.btnAdicionarNotaInterna {
+    padding: 10px;
+    border-radius: 10px;
+    height: 30px;
+    border: none;
+    background: linear-gradient(to right, #9ECD1D, #4F670F);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    width: 100%;
+}
+
+.btnAdicionarNotaInterna:hover {
+    transition: 0.3s;
+    cursor: pointer;
+    background: linear-gradient(to right, #4F670F, #9ECD1D);
+}
+
+.btnAdicionarNotaInterna:active {
+    transition: 0.1s;
+    transform: scale(0.98);
+}

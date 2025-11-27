@@ -1,0 +1,89 @@
+.conteudoControleAcesso {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  min-height: 0;
+}
+
+.contagem {
+  height: fit-content;
+  display: flex;
+  gap: 15px;
+}
+
+.cardContagem {
+  flex: 1;
+  height: 100%;
+  background-color: #393939;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+
+.labelContagem{
+  font-family: "Inter";
+  font-size: 15px;
+}
+
+.numeroContagem{
+  font-family: "Inter";
+  font-size: 43px;
+  font-weight: 600;
+}
+
+.checkins {
+  flex: 1;
+  background-color: #393939;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.titlesLista {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.titleLista {
+  font-family: "Inter";
+  font-size: 10px;
+  width: 86px;
+}
+
+.ajuste {
+  width: 150px;
+  font-size: 10px;
+  font-family: "Inter";
+}
+
+.titleCheckin {
+  font-family: "Inter";
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.listaCheckin {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  overflow-y: auto;
+  scrollbar-width: none;
+}
+
+.checkins, .cardContagem{
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
+  border-top: 1.5px solid rgba(255, 255, 255, 0.22);
+  border-bottom: 1.5px solid rgba(0, 0, 0, 0.28);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}

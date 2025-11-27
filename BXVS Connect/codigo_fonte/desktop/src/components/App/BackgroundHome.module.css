@@ -1,0 +1,22 @@
+.backgroundHome {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 30%;
+}
+
+.imgBackgroundHome {
+  width: 300px;
+}
+
+.titleBkHome {
+  font-family: "Anton";
+  font-size: 64px;
+}
+
+.txtBkHome {
+  font-family: "Anton";
+  font-size: 20px;
+}

@@ -1,0 +1,299 @@
+.aluno {
+  width: 350px;
+  padding: 15px;
+  background-color: #393939;
+  border-radius: 10px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.popUp{
+  position: fixed;
+  top: 50%;
+  left: 10px;
+  transform: translate(0, -50%);
+  display: none;
+  height: 95%;
+}
+
+.popUpVisible{
+  display: flex;  
+  z-index: 2;
+}
+
+.alunoSelecionado {
+  font-family: "Inter";
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.placeholderAluno {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
+  opacity: 50%;
+  font-weight: 500;
+}
+
+.perfilAluno{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.imgPerfilAluno{
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  background-color: #D9D9D9;
+}
+
+.txtPerfilAluno{
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.nomePerfilAluno{
+  font-family: "Inter";
+  font-size: 20px;
+}
+
+.presencaPerfilAluno{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.circuloPerfilAluno{
+  width: 14px;
+  height: 14px;
+  border-radius: 7px;
+  background-color: #9ECD1D;
+}
+
+.ausente{
+  background-color: #BE5F00;
+}
+
+.txtPresencaPerfilAluno{
+  font-family: "Inter";
+  font-size: 12px;
+}
+
+.horarios{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.itemHorario{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.labelHorario{
+  font-size: 12px;
+  font-family: "Inter";
+}
+
+.conteudoHorario{
+  font-size: 26px;
+  font-weight: 600;
+  font-family: "Inter";
+}
+
+.cardsAluno{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.cardAluno{
+  width: 100%;
+  height: 60px;
+  padding: 10px;
+  background-color: #4c4c4c;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ border-radius: 10px;
+}
+
+.labelCardAluno{
+  font-size: 12px;
+  font-family: "Inter";
+}
+
+.conteudoCardAluno, .frequenciaCardAluno{
+  font-size: 20px;
+  font-family: "Inter";
+  font-weight: 500;
+}
+
+.frequenciaCardAluno{
+  color: #9ECD1D;
+}
+
+.bottomAlunoSelecionado{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 60px;
+  position: relative;
+}
+
+.txtEscolhaLembrete{
+  width: 100%;
+  text-align: start;
+  margin-top: 30px;
+}
+
+.btnsAluno{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.btnVoltarBottomAluno{
+  background: none;
+  text-align: start;
+  border: none;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  margin-top: -50px;
+}
+
+.btnVoltarBottomAluno:hover{
+  background-color: #4c4c4c;
+}
+
+.btnVoltarBottomAluno:active{
+  background-color: #5c5c5c;
+}
+
+.iconVoltar{
+  width: 30px;
+}
+
+
+.btnTelaContatar, .btnVerFicha{
+  width: 100%;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+}
+
+.btnVerFicha{
+  background-color: #5D741E;
+}
+
+.msgToast{
+  width: 100%;
+  margin-top: 10px;
+  height: 40px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #565656;
+  opacity: 0;
+  transition: 0.5s;
+  z-index: 10;
+}
+
+.toast{
+  opacity: 100%;
+}
+
+.btnTelaContatar{
+  background-color: #4c4c4c ;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btnTelaContatarDesativado{
+  height: 40px;
+  width: 100%;
+  border-radius: 10px;
+  background-color: #4c4c4c;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Inter";
+  opacity: 50%;
+}
+
+.btnTelaContatar:hover{
+  background-color: #5c5c5c ;
+}
+
+.btnTelaContatar:active{
+  background-color: #4c4c4c ;
+}
+
+.btnContatar{
+  height: 40px;
+  width: 100%;
+  border-radius: 10px;
+  background-color: #5D741E;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Inter";
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.btnContatar:hover{
+  background-color: #6c8624;
+}
+
+.btnContatar:active{
+  background-color: #5D741E;
+}
+
+.aluno, .cardAluno, .btnTelaContatar, .btnVerFicha, .btnContatar, .btnEnviarLembretePagamento, .btnEnviarLembreteIncentivo{
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
+  border-top: 1.5px solid rgba(255, 255, 255, 0.22);
+  border-bottom: 1.5px solid rgba(0, 0, 0, 0.28);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btnFechar{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+  border-radius: 3px;
+  height: 30px;
+  width: 30px;
+  border-radius: 15px;
+}
+
+.btnFechar:hover{
+  background-color: rgba(44, 44, 44, 0.5);
+}

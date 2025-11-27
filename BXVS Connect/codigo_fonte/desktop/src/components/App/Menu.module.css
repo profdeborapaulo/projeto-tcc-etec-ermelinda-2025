@@ -1,0 +1,40 @@
+.menu {
+  min-width: 280px;
+  border-radius: 30px;
+  background-color: #1e1e1e;
+  transition: 0.5s;
+  color: #fff;
+}
+
+.fechado {
+  margin-left: -290px;
+}
+
+.titleMenu {
+  width: 100%;
+  height: 90px;
+  border-radius: 30px;
+  background: linear-gradient(to left, #7fa417, #6f8e17);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.txtTitleMenu {
+  margin-left: 86px;
+  font-family: "Anton";
+  font-size: 20px;
+}
+
+.titleLinksMenu {
+  font-family: "Inter";
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.linksMenu {
+  width: 100%;
+  padding: 20px;
+  margin-top: 40px;
+}

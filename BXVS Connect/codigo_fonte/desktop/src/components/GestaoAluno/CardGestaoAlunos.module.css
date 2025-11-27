@@ -1,0 +1,37 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px 15px 10px;
+    gap: 5px;
+    background-color: #393939;
+    border-radius: 10px;
+    flex: 1;
+    height: fit-content;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icon{
+    width: 60px;
+    font-size: 700;
+}
+
+.titulo{
+    font-family: "Inter";
+    font-size: 12px;
+    width: 100px;
+}
+
+.txt{
+    font-family: "Inter";
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.colorPresencaMedia{
+    color: #9ECD1D;
+}

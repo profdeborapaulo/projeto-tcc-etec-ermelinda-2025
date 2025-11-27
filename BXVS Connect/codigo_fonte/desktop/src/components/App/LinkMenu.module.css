@@ -1,0 +1,31 @@
+.linkMenu {
+  height: 46px;
+  border-radius: 23px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.linkMenu:hover{
+  background-color: #393939;
+}
+
+.linkMenu:active{
+  background: none;
+}
+
+.linkAtivo {
+  background-color: #393939;
+}
+
+.txtLinkMenu {
+  font-family: "Inter";
+  font-size: 15px;
+}
+
+.iconLinkMenu {
+  width: 20px;
+}
