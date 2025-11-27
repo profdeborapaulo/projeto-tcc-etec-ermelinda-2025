@@ -1,0 +1,104 @@
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.conteudo {
+    display: flex;
+    padding-inline: 80px;
+}
+
+.tituloContainer {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.txtEtapa {
+    font-family: "BebasNeue";
+    font-size: 15px;
+}
+
+.txtTitulo {
+    font-family: "BebasNeue";
+    font-size: 30px;
+}
+
+.txtDescricao {
+    font-family: "Inter";
+    font-size: 12px;
+}
+
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 1000px;
+}
+
+.inputContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    flex: 1;
+}
+
+.labelInput{
+    font-size: 12px;
+    font-family: "Inter";
+}
+
+.inputDados{
+    width: 100%;
+    height: 80px;
+    padding: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    background: none;
+    font-family: "Inter";
+}
+
+
+option{
+    background-color: #393939;
+}
+
+.contatoContainer{
+    display: flex;
+    gap: 5px;
+}
+
+.logoFundo{
+    position: absolute;
+    width: 900px;
+    top: 300px;
+    left: -270px;
+    opacity: 0.1;
+}
+
+.btnContinuar{
+    width: 100%;
+    height: 60px;
+    border-radius: 10px;
+    background: linear-gradient(to left, #9ECD1D, #688810);
+    cursor: pointer;
+}
+
+.btnContinuar:hover{
+    background: linear-gradient(to left, #688810, #9ECD1D);
+}
+
+.btnContinuar:active{
+    transform: scale(0.98);
+    transition: 0.1s;
+}
+
+.leiDados{
+    font-size: 10px;
+    font-family: "Inter";
+    text-align: center;
+    opacity: 0.5;
+    margin-block: 40px;
+}

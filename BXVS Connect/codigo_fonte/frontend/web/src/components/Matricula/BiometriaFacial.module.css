@@ -1,0 +1,172 @@
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-inline: 80px;
+    height: 100vh;
+    justify-content: space-between;
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.containerBoasPraticas{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.tituloBoasPraticas{
+    font-family: "BebasNeue";
+    font-size: 30px;
+}
+
+.listaBoasPraticas{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.boaPratica{
+    font-family: "Inter";
+    font-size: 14px;
+}
+
+.tirarFotoContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.btnTirarFoto{
+    width: 250px;
+    height: 80px;
+    padding: 20px;
+    text-align: start;
+    border-radius: 10px;
+    background-color: #393939;
+}
+
+.txtImagem{
+    font-family: "Inter";
+    font-size: 12px;
+    opacity: 0.5;
+}
+
+.linhaImagem{
+    width: 100%;
+    height: 1px;
+    background-color: #fff;
+}
+
+.tituloContainer {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.txtEtapa {
+    font-family: "BebasNeue";
+    font-size: 15px;
+}
+
+.txtTitulo {
+    font-family: "BebasNeue";
+    font-size: 30px;
+}
+
+.txtDescricao {
+    font-family: "Inter";
+    font-size: 12px;
+}
+
+.btnContinuar{
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    background: linear-gradient(to left, #9ECD1D, #688810);
+    margin-top: 20px;
+}
+
+.btnContinuar{
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    background: linear-gradient(to left, #9ECD1D, #688810);
+    cursor: pointer;
+}
+
+.btnContinuar:hover{
+    background: linear-gradient(to left, #688810, #9ECD1D);
+    transition: 0.3s;
+}
+
+.btnContinuar:active{
+    transform: scale(0.98);
+    transition: 0.1s;
+}
+
+.txtBiometriaFacial{
+    font-family: "BebasNeue";
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.txtFoto{
+    color: #fff;
+}
+
+.containerVideo {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 10px;
+}
+
+.boxVideo {
+    width: 640px;
+    height: 480px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.video {
+    width: 100%;
+    transform: scaleX(-1);
+}
+
+.moldura {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    width: 30%;  
+    height: 60%; 
+    border-radius: 50%; 
+    border: 3px solid rgba(255, 255, 255, 0.9); 
+    box-shadow: 0 0 0 9999px rgba(0, 0, 0, 0.6); 
+    pointer-events: none;
+    z-index: 10; 
+}
+
+.leiDados{
+    font-size: 10px;
+    font-family: "Inter";
+    text-align: center;
+    opacity: 0.5;
+    margin-block: 40px;
+}
+
+.mensagemRosto{
+    position: absolute;
+    left: 50%;
+    bottom: 5px;
+    transform: translate(-50%);
+    text-align: center;
+}

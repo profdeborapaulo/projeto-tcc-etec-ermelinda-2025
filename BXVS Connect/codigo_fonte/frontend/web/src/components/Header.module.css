@@ -1,0 +1,114 @@
+header{
+    height: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 70px;
+    position: fixed;
+    top: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+    font-family: "BebasNeue";
+    font-size: 24px;
+    background: linear-gradient(to bottom, #000, rgba(0, 0, 0, 0));
+    z-index: 3;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+}
+
+.title:active{
+    transform: scale(0.98);
+    transition: transform 0.1s ease-in-out;
+}
+
+.logoTitle{
+    width: 70px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.link{
+    cursor: pointer;
+}
+
+.link:hover{
+    color: #9ECD1D;
+    transition: 0.3s;
+}
+
+.link:active{
+    transform: scale(0.95);
+    transition: transform 0.1s ease-in-out;
+}
+
+.usuarioContainer{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+}
+
+.usuarioContainer:active{
+    transform: scale(0.98);
+    transition: transform 0.1s ease-in-out;
+}
+
+.txtUsuarioContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.nomeUsuario{
+    font-size: 18px;
+    font-family: "BebasNeue";
+}
+
+.statusMatricula{
+    font-size: 14px;
+    font-family: "Inter";
+}
+
+.verde{
+    color: #9ECD1D;
+}
+
+.iconUser{
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid white;
+    padding: 5px;
+}
+
+.btnEntrar{
+    width: 100px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #9ECD1D;
+    font-family: "Inter";
+}
+
+.btnEntrar:hover{
+    background: #b4e823;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.btnEntrar:active{
+    transition: 0.1s;
+    transform: scale(0.98);
+}

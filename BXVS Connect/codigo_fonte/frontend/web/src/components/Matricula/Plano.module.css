@@ -1,0 +1,44 @@
+.planoCard{
+    background-color: #393939;
+    width: 270px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.radioButton{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #656565;
+    transition: 0.1s;
+    cursor: pointer;
+}
+
+.checked{
+    background-color: #9ECD1D;
+    border: 3px solid #656565;
+}
+
+.titulo{
+    font-family: "BebasNeue";
+    font-size: 30px;
+}
+
+.descricao{
+    font-size: "Inter";
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.preco{
+    font-family: "BebasNeue";
+    font-size: 30px;
+}
+
+.txtMes{
+    font-size: 10px;
+}

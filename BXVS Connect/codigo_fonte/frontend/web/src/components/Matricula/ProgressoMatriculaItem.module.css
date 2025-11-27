@@ -1,0 +1,45 @@
+.progressoMatriculaItemContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px
+}
+
+.title{
+    font-family: "BebasNeue";
+    font-size: 15px;
+    padding-inline: 30px;
+}
+
+.verde{
+    color: #9ECD1D;
+}
+
+hr{
+    width: 0;
+    height: 5px;
+    background-color: #9ECD1D;
+    background-position: left;
+    transition: 0.5s;
+}
+
+.linha{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+}
+
+.fullBar{
+    width: 100%;
+}
+
+.checkIcon{
+    height: 15px;
+}
+
+.ball{
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+}

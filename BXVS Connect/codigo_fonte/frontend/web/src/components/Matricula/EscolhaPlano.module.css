@@ -1,0 +1,261 @@
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-inline: 80px;
+}
+
+.conteudo{
+    display: flex;
+    gap: 20px;
+}
+
+.tituloContainer {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.txtEtapa {
+    font-family: "BebasNeue";
+    font-size: 15px;
+}
+
+.txtTitulo {
+    font-family: "BebasNeue";
+    font-size: 30px;
+}
+
+.txtDescricao {
+    font-family: "Inter";
+    font-size: 12px;
+}
+
+.txtPlanosDisponiveis {
+    font-family: "BebasNeue";
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.planosContainer {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    width: 840px;
+    height: 200px;
+}
+
+.txtCupomDesconto {
+    font-family: "BebasNeue";
+    font-size: 30px;
+    margin-top: 40px;
+}
+
+.inputCupomDesconto{
+    width: 330px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #393939;
+    padding: 10px;
+    font-family: "Inter";
+}
+
+.pagamentoCard{
+    background-color: #393939;
+    flex: 1;
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+
+.tituloPagamentoContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.tituloPagamento{
+    font-family: "BebasNeue";
+    font-size: 30px;
+}
+
+.descricaoPagamento{
+    font-family: "Inter";
+    font-size: 12px;
+    opacity: 0.5;
+}
+
+.dadosPagamentoContainer{
+    display: flex;
+    gap: 15px;
+}
+
+.dadosLado{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.labelDados{
+    font-family: "Inter";
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.txtDado{
+    font-family: "Inter";
+    font-size: 12px;
+    font-weight: 500;
+    opacity: 0.5;
+}
+
+.linhaVertical{
+    height: 80px;
+    width: 0.5px;
+    background-color: #fff;
+}
+
+.tituloTotal{
+    font-family: "Inter";
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.txtTotal{
+    font-family: "Inter";
+    font-size: 25px;
+    font-weight: 600;
+    color: #9ECD1D;   
+}
+
+.labelRealizarPagamento{
+    font-family: "Inter";
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.btnMercadoPago{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #fff;
+    margin-top: 10px;
+    cursor: pointer;
+    text-align: start;
+    padding: 10px;
+}
+
+.btnMercadoPago:hover{
+    background-color: #ececec;
+    transition: 0.3s;
+}
+
+.btnMercadoPago:active{
+    transform: scale(0.98);
+    transition: 0.1s;
+}
+
+.mercadoPagoIcon{
+    width: 70px;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+
+.continuarContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.txtContinuar{
+    font-family: "Inter";
+    font-size: 12px;
+    opacity: 0.5;
+}
+
+.btnContinuarDesativado{
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    background: linear-gradient(to left, #9ECD1D, #688810);
+    opacity: 0.5;
+}
+
+.btnContinuar{
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    background: linear-gradient(to left, #9ECD1D, #688810);
+    cursor: pointer;
+}
+
+.btnContinuar:hover{
+    background: linear-gradient(to left, #688810, #9ECD1D);
+    transition: 0.3s;
+}
+
+.btnContinuar:active{
+    transform: scale(0.98);
+    transition: 0.1s;
+}
+
+.leiDados{
+    font-size: 10px;
+    font-family: "Inter";
+    text-align: center;
+    opacity: 0.5;
+    margin-block: 40px;
+}
+
+.sucessoContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logoSucesso{
+    width: 70px;
+}
+
+.txtSucesso{
+    font-family: "Inter";
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.desativado{
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.btnValidarCupom {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    height: 40px;
+    padding: 10px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 8px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.btnValidarCupom:hover {
+    background-color: #0056b3;
+}
+
+.btnValidarCupom:active{
+    transition: 0.1s;
+    transform: scale(0.98);
+}
+
+.containerDesconto{
+    display: flex;
+    align-items: end;
+    gap: 10px;
+}

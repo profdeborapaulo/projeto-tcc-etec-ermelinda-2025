@@ -1,0 +1,68 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #3b3b3b;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    z-index: 10;
+    font-family: "Inter";
+    width: fit-content;
+}
+
+.titulo{
+    font-size: 18px;
+}
+
+.txt{
+    font-size: 15px;
+}
+
+.containerBotoes {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 5px;
+    width: 100%;
+}
+
+.btnCancelar {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(86, 86, 86);
+    font-family: "Inter";
+}
+
+.btnCancelar:hover {
+    transition: 0.3s;
+    cursor: pointer;
+    background-color: rgb(97, 97, 97);
+}
+
+.btnCancelar:active {
+    transition: 0.1s;
+    transform: scale(0.98);
+}
+
+.btnSair {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #ab0808;
+    font-family: "Inter";
+}
+
+.btnSair:hover {
+    transition: 0.3s;
+    cursor: pointer;
+    background-color: #bd0a0a;
+}
+
+.btnSair:active {
+    transition: 0.1s;
+    transform: scale(0.98);
+}

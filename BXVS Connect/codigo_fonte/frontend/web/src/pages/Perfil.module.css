@@ -1,0 +1,275 @@
+.container{
+    height: 100vh;
+    padding-top: 100px;
+    padding-bottom: 10px;
+    padding-inline: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.cardMatricula{
+    height: 100%;
+    background-color: #3b3b3b;
+    width: 100%;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: space-between;
+    position: relative;
+}
+
+.cardCarregamento{
+    height: 100%;
+    background-color: #3b3b3b;
+    width: 100%;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.txtCarregamento{
+    font-family: "Inter";
+    font-size: 30px;
+}
+
+.headerCardMatricula{
+    display: flex;
+    justify-content: space-between;  
+    align-items: center; 
+    width: 100%;
+}
+
+.tituloMatricula{
+    font-family: "BebasNeue";
+    font-size: 30px;
+}
+
+.btnInformacoes{
+    background-color: #1e1e1e;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: "Inter";
+    cursor: pointer;
+}
+
+.btnInformacoes:hover{
+    transition: 0.3s;
+    background-color: #272727;
+}
+
+.btnInformacoes:active{
+    transition: 0.1s;
+    transform: scale(0.98);
+}
+
+.btnX{
+    font-size: 15px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnX:hover{
+    background-color: #434343;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.btnX:active{
+    transition: 0.1s;
+    transform: scale(0.98);
+}
+
+.hr{
+    height: 1px;
+    width: 100%;
+    background-color: #fff;
+}
+
+.containerPerfil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.imgPerfil{
+    padding: 30px;
+    border-radius: 50%;
+    background-color: #1e1e1e;
+}
+
+.nomePerfil{
+    font-family: "Inter";
+    font-size: 25px;
+}
+
+.containerDados{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+
+.containerInputs{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1;
+}
+
+.containerInput{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1;
+}
+
+.inputPerfil{
+    height: 50px;
+    padding: 10px;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.containerCardPlano{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 10px;
+}
+
+.cardPlano{
+    width: 450px;
+    height: 100%;
+    padding: 10px;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.textPlano{
+    font-family: "Inter";
+    font-size: 14px;
+}
+
+.vencimento{
+    font-family: "Inter";
+    font-size: 14px;
+    opacity: 0.5;
+}
+
+.vencimentoContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 100%;
+}
+
+.containerPagamento{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.btnMercadoPago{
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #3FB6E9;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.btnMercadoPagoDesativado{
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #3FB6E9;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    opacity: 0.5;
+}
+
+.btnMercadoPago:hover{
+    cursor: pointer;
+    transition: 0.3;
+    background-color: #45c4fb;
+}
+
+.btnMercadoPago:active{
+    transition: 0.1s;
+    transform: scale(0.98);
+}
+
+.imgMercadoPago{
+    height: 20px;
+}
+
+.btnSalvar{
+    border-radius: 10px;
+    background: linear-gradient(to right, #9ECD1D, #4F670F);
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.btnSalvar:hover{
+    cursor: pointer;
+    transition: 0.3;
+    background: linear-gradient(to right, #4F670F, #9ECD1D);
+}
+
+.btnSalvar:active{
+    transition: 0.1s;
+    transform: scale(0.98);
+}
+
+.btnLogout{
+    padding: 10px;
+    background-color: #ab0808;
+    border-radius: 10px;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    width: 70px;
+    font-family: "Inter";
+}
+
+.btnLogout:hover{
+    transition: 0.3s;
+    cursor: pointer;
+    background-color: #bd0a0a;
+}
+
+.btnLogout:active{
+    transition: 0.1s;
+    transform: scale(0.98);
+}

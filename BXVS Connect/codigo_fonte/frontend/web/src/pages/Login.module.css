@@ -1,0 +1,66 @@
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter";
+}
+
+.form{
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(48, 48, 48);
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap: 20px;
+    width: 500px;
+}
+
+.logo{
+    width: 100px;
+}
+
+.containerInput{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 5px;
+}
+
+.input{
+    width: 100%;
+    height: 60px;
+    border-radius: 10px;
+    padding: 10px;
+    background: none;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.btnEntrar{
+    width: 100%;
+    height: 60px;
+    border-radius: 10px;
+    background: linear-gradient(to right, #9ECD1D, #688810);
+    cursor: pointer;
+}
+
+.btnEntrar:hover{
+    transition: 0.3s;
+    background: linear-gradient(to right, #688810, #9ECD1D);
+}
+
+.btnEntrar:active{
+    transition: 0.1s;
+    transform: scale(0.98);
+}
+
+.link{
+    color: rgb(57, 132, 254);
+}
+
+.link:hover{
+    cursor: pointer;
+    transition: 0.3s;
+    color: rgb(114, 168, 255);
+}

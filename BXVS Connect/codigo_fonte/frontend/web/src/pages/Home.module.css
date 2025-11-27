@@ -1,0 +1,469 @@
+.imgInicio {
+  height: 100vh;
+  width: 100%;
+  background-image: url("../../public/img/background.png");
+  background-size: cover;
+  background-position: right;
+  display: flex;
+  position: relative;
+}
+
+
+.boxInicio {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 500px;
+  z-index: 2;
+  position: absolute;
+  bottom: 100px;
+  left: 100px;
+}
+
+@media screen and (max-width: 768px) {
+  .boxInicio {
+    width: 90%;
+    left: 5%;
+    bottom: 50px;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+
+.titleInicio {
+  font-family: "BebasNeue";
+  font-size: 70px;
+  color: white;
+}
+
+.txtVerde {
+  color: #33FF00;
+}
+
+.txtDescricao {
+  font-family: "BebasNeue";
+  font-size: 20px;
+  color: white;
+  margin-top: -20px;
+}
+
+.btnConferirPlanos {
+  width: 600px;
+  height: 70px;
+  font-size: 20px;
+  color: white;
+  background: linear-gradient(to right, #9ECD1D, #688810);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: "BebasNeue";
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 1024px) {
+  .btnConferirPlanos {
+    width: 70vw;
+  }
+}
+
+.btnConferirPlanos:hover {
+  background: linear-gradient(to right, #688810, #9ECD1D);
+  transition: 0.3s;
+}
+
+.btnConferirPlanos:active {
+  transform: scale(0.98);
+  transition: 0.1s;
+}
+
+.boxRight {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100px;
+  /* Largura do box */
+  height: 100vh;
+  /* Altura total da tela */
+  background-color: #000;
+}
+
+.gradientRight {
+  position: absolute;
+  top: 0;
+  right: 100px;
+  width: 100px;
+  /* Largura do box */
+  height: 100vh;
+  /* Altura total da tela */
+  background: linear-gradient(to left, #000, rgba(0, 0, 0, 0));
+}
+
+.gradientBottom {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 150px;
+  background: linear-gradient(to top, #1E1E1E, rgba(30, 30, 30, 0));
+  z-index: 1;
+}
+
+.hrInicio {
+  width: 230px;
+  height: 1px;
+  background-color: white;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+
+/*segunda tela*/
+
+/*.subcontainer{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(
+    to bottom,
+    black 0%,
+    rgba(30,30,30,10) 10%
+
+    ),
+    #1e1e1e
+    ;
+    
+}*/
+
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-inline: 100px;
+}
+
+@media screen and (max-width: 768px) {
+  main {
+    padding-inline: 20px;
+  }
+}
+
+
+.sobreh1 {
+  padding-top: 90px;
+  width: 100%;
+  text-align: center;
+  font-family: "BebasNeue";
+  font-size: 70px;
+  padding-bottom: 200px;
+
+}
+
+.descricaoContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 200px;
+  gap: 50px;
+  width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+  .descricaoContainer {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+.tituloDescricao {
+  font-size: 34px;
+  font-family: "BebasNeue";
+  margin-bottom: 40px;
+  background: linear-gradient(to right, #fff, #c8c8c8);
+  -webkit-background-clip: text;
+  /* Necessário para Chrome/Safari */
+  -webkit-text-fill-color: transparent;
+
+}
+
+.txtDescricao {
+  font-size: 22px;
+  font-family: "BebasNeue";
+}
+
+.verde {
+  color: #A3E635;
+}
+
+.imgDescricao {
+  width: 600px;
+}
+
+@media screen and (max-width: 1024px) {
+  .imgDescricao {
+    width: 100%;
+  }
+}
+
+
+.professoresContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 200px;
+  padding-top: 90px;
+}
+
+.tituloProfessores {
+  font-family: "BebasNeue";
+  font-size: 50px;
+  margin-bottom: 30px;
+  width: 100%;
+  text-align: center;
+}
+
+.cardsProfessor {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+@media screen and (max-width: 1024px) {
+  .cardsProfessor {
+    flex-direction: column;
+  }
+}
+
+.cardProfessor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.imgProfessor {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.nomeProfessor {
+  font-family: "BebasNeue";
+  font-size: 30px;
+}
+
+.hr {
+  width: 230px;
+  height: 1px;
+  background-color: white;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.planosContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 200px;
+}
+
+@media screen and (max-width: 1024px) {
+  .cardsPlanosContainer {
+    flex-direction: column;
+  }
+}
+
+.tituloPlanos {
+  font-family: "BebasNeue";
+  font-size: 50px;
+  margin-top: 90px;
+  margin-bottom: 20px;
+}
+
+.cardsPlanosContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.treinosEspeciaisContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  width: 100%;
+}
+
+.tituloTreinosEspeciais {
+  font-family: "BebasNeue";
+  font-size: 50px;
+  margin-block: 20px;
+  text-align: center;
+}
+
+.cardsTreinosEspeciais {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+  width: 100%;
+}
+
+.cardTreinoEspecial {
+  width: 500px;
+  height: 500px;
+  display: flex;
+  align-items: end;
+  background-size: cover;
+  border-radius: 10px;
+  position: relative;
+}
+
+@media screen and (max-width: 768px) {
+  .cardTreinoEspecial {
+    width: 90vw;
+    height: 90vw;
+  }
+}
+
+.imgTreinoEspecial {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  position: absolute;
+}
+
+.txtCardTreinoEspecial {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
+.nomeTreinoEspecial {
+  font-family: "BebasNeue";
+  font-size: 40px;
+  z-index: 1;
+  background: linear-gradient(to right, #fff, #c8c8c8);
+  -webkit-background-clip: text;
+  /* Necessário para Chrome/Safari */
+  -webkit-text-fill-color: transparent;
+}
+
+@media screen and (max-width: 1024px) {
+  .nomeTreinoEspecial {
+    font-size: 24px;
+  }
+}
+
+
+.descricaoTreinoEspecial {
+  font-family: "BebasNeue";
+  font-size: 20px;
+  z-index: 1;
+  max-width: 400px;
+}
+
+@media screen and (max-width: 1024px) {
+  .descricaoTreinoEspecial {
+    font-size: 18px;
+  }
+}
+
+.greenGradient {
+  background: linear-gradient(to right, #9ECD1D, #81A817);
+  -webkit-background-clip: text;
+  /* Necessário para Chrome/Safari */
+  -webkit-text-fill-color: transparent;
+}
+
+.gradientTreinoEspecial {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  background: linear-gradient(to top, #000, rgba(0, 0, 0, 0));
+  border-radius: 10px;
+  z-index: 0;
+}
+
+.garantirVagaContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-top: 200px;
+  padding-top: 90px;
+}
+
+.tituloGarantirVaga {
+  font-family: "BebasNeue";
+  font-size: 40px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+.btnGarantirVaga {
+  width: 400px;
+  height: 70px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background: linear-gradient(to right, #9ECD1D, #688810);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: "BebasNeue";
+  margin-top: 10px;
+  z-index: 2;
+  margin-bottom: 200px;
+}
+
+.btnGarantirVagaDesativado {
+  width: 400px;
+  height: 70px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background: linear-gradient(to right, #9ECD1D, #688810);
+  border: none;
+  border-radius: 10px;
+  font-family: "BebasNeue";
+  margin-top: 10px;
+  z-index: 2;
+  opacity: 0.5;
+}
+
+.btnGarantirVaga:hover {
+  background: linear-gradient(to right, #688810, #9ECD1D);
+  transition: 0.3s;
+}
+
+.btnGarantirVaga:active {
+  transform: scale(0.98);
+  transition: 0.1s;
+}
+
+.txtMatriculado {
+  font-size: 12px;
+  font-family: "Inter";
+  margin-bottom: 200px;
+}
+
+.linkVerMatricula {
+  color: #3F92FF;
+}
