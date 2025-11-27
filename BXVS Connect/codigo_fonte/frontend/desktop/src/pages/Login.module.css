@@ -1,0 +1,115 @@
+.containerLogin {
+  height: 100vh;
+  background-image: url("../../public/img/bkSplash.jpg");
+  background-size: cover;
+  background-position: center;
+  font-family: "Anton";
+  display: flex;
+  color: #fff;
+}
+
+input{
+  color: #fff;
+}
+
+.gradentLeft {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
+
+.filtro {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.63);
+}
+
+.gradentBottom {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 115px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
+
+.boxBemVindo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1;
+}
+
+.txtBemVindo {
+  font-size: 40px;
+}
+
+.logoLogin {
+  width: 300px;
+  height: 300px;
+  margin-top: 50px;
+}
+
+.txtTitleLogin {
+  font-size: 64px;
+}
+
+.txtSubTitleLogin {
+  font-size: 20px;
+}
+
+.boxLogin {
+  z-index: 1;
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  padding: 50px;
+}
+
+.titleLogin {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.inputLogin {
+  width: 100%;
+  height: 46px;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  padding: 10px;
+  color: #000;
+  margin-top: 15px;
+  font-family: "Inter";
+  font-size: 16px;
+}
+
+.btnEntrar {
+  width: 100%;
+  height: 46px;
+  border-radius: 10px;
+  margin-top: 15px;
+  border: none;
+  background-color: #7FA417;
+  font-family: "Inter";
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btnEntrar:hover {
+  background-color: #94c01b;
+}
+
+.btnEntrar:active {
+  background-color: #7FA417;
+}

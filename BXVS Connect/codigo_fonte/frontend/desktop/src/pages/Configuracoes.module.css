@@ -1,0 +1,137 @@
+.container {
+    height: 100%;
+    font-family: "Inter";
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    overflow-y: auto;
+    scrollbar-width: none ;
+}
+
+h2 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+label {
+    font-size: 12px;
+}
+
+select, .inputConfiguracao {
+    width: 500px;
+    border-radius: 10px;
+    padding: 10px;
+    background: none;
+    outline: none;
+    border: 1px solid rgb(255, 255, 255, 0.5);
+    color: #fff;
+}
+
+option{
+    background-color: #393939;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.containerInput{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.containerBtnTroca{
+    height: 25px;
+    width: 200px;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #393939;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    position: relative;
+    cursor: pointer;
+}
+
+.btnTroca{
+    height: 100%;
+    width: 100px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    position: absolute;
+    background: none;
+    left: 0;
+    transition: 0.3s;
+}
+
+.desativado{
+    left: 50%;
+}
+
+.txtBtnTroca{
+    width: 100px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dica{
+    color: rgb(255, 255, 255, 0.5);
+    font-size: 12px;
+}
+
+.containerConta{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.containerPerfil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.fotoPerfil{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #393939;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btnPerfil{
+    padding: 5px;
+    border: 1px solid #8e8e8e;
+    outline: none;
+    border-radius: 10px;
+    width: 150px;
+    text-align: start;
+}
+
+.btnPerfil:hover{
+    cursor: pointer;
+    transition: 0.3s;
+    background: #4b4b4b;
+}
+
+.btnPerfil:active{
+    transition: 0.1s;
+    transform: scale(0.98);
+}
+
+.btnCinza{
+    background: #353535;
+}
+
+.btnExcluirFoto{
+    background: rgb(189, 0, 0, 0.5);
+}

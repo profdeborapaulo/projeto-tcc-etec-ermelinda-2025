@@ -1,0 +1,75 @@
+.telaDescanso {
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-image: url("../../../public/img/bkSplash.jpg");
+  z-index: 3;
+  transition: opacity 0.5s ease;
+  opacity: 0;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  font-family: "Anton";
+  color: #fff;
+}
+
+.telaDescansoAtiva {
+  display: flex;
+}
+
+.telaDescansoAparecendo {
+  opacity: 1;
+}
+
+.filtro{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.63);
+}
+
+.gradientTop{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 50%;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
+
+.gradientBottom{
+  position: absolute;
+  width: 100%;
+  height: 115px;
+  background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  bottom: 0;
+  display: flex;
+  gap: 30px;
+  justify-content: end;
+  align-items: end;
+  padding: 0 30px 30px 0;
+}
+
+.box{
+  display: flex;
+  flex-direction: column;
+  z-index: 4;
+  align-items: center;
+}
+
+.logoDescanco{
+  width: 300px;
+  height: 300px;
+}
+
+.nomeApp{
+  font-size: 64px;
+}
+
+.txtApp{
+  font-size: 20px;
+}
+
+.data{
+  font-size: 32px;
+}
