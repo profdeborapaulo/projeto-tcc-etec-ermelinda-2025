@@ -12,8 +12,8 @@
 ├── Artigo_Cientifíco_Buscafarma.pdf
 ├── documentacao/
 │   ├── Requisitos.pdf
-│   ├── manual_usuario.pdf
-│   ├── manual_desenvolvedor.pdf
+│   ├── Manual_usuario.pdf
+│   ├── Manual_desenvolvedor.pdf
 │   └── diagramas/
 │       ├── ER
 │       │   ├── IMG
